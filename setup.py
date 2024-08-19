@@ -16,6 +16,7 @@ setup(
                 'execution.',
     long_description=long_description,
     long_description_content_type='text/markdown',
+    url="https://github.com/LewisDean22/function_notifier",
     packages=find_packages(),  # Automatically find all packages and subpackages
     python_requires='>=3.11',
     install_requires=[  
