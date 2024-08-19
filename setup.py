@@ -18,6 +18,11 @@ setup(
     long_description_content_type='text/markdown',
     url="https://github.com/LewisDean22/function_notifier",
     packages=find_packages(),  # Automatically find all packages and subpackages
+    classifiers=[                
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
     python_requires='>=3.11',
     install_requires=[  
         'plyer>=2.1.0',  
