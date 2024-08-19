@@ -9,7 +9,7 @@ with open(os.path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='function_notifier', 
-    version='1.0.0',           
+    version='1.0.1',           
     author='Lewis Dean',
     description='This package contains the notify decorator, used to '
                 'notify users when the wrapped function has finished '
