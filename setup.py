@@ -7,7 +7,10 @@ setup(
     description='This package contains the notify decorator, used to '
                 'notify users when the wrapped function has finished '
                 'execution.',
-    
+    long_description='This package contains the notify decorator, used to '
+                     'notify users when the wrapped function has finished '
+                     'execution.',
+    long_description_content_type='text/markdown',
     packages=find_packages(),  # Automatically find all packages and subpackages
     python_requires='>=3.11',
     install_requires=[  
